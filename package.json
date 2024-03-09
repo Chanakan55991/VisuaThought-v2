@@ -11,13 +11,31 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@clerk/remix": "^3.1.21",
+    "@libsql/client": "^0.5.3",
+    "@nextui-org/react": "^2.2.10",
+    "@paralleldrive/cuid2": "^2.2.2",
+    "@react-spring/web": "^9.7.3",
     "@remix-run/css-bundle": "^2.8.1",
     "@remix-run/node": "^2.8.1",
     "@remix-run/react": "^2.8.1",
     "@remix-run/serve": "^2.8.1",
+    "@use-gesture/react": "^10.3.0",
+    "drizzle-orm": "^0.30.0",
+    "framer-motion": "^11.0.8",
     "isbot": "^4.1.0",
+    "jotai": "^2.7.0",
+    "mdast-util-from-markdown": "^2.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "rehype-stringify": "^10.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.0",
+    "sonner": "^1.4.3",
+    "unified": "^11.0.4",
+    "unist-util-remove": "^4.0.0",
+    "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.8.1",
@@ -25,12 +43,14 @@
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
+    "drizzle-kit": "^0.20.14",
     "eslint": "^8.38.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "tailwindcss": "^3.4.1",
     "typescript": "^5.1.6"
   },
   "engines": {

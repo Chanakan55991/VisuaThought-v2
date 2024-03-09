@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+  background-image: url('/dot-grid-2x.png');
+  background-size: 16px 16px;
+  transform: translate(0px) scale(1) translate(0px);
+}
+
